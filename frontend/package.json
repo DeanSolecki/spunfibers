@@ -1,10 +1,12 @@
 {
-  "name": "foundation-apps-template",
-  "version": "1.1.0",
+  "name": "spunfibers",
+  "version": "0.0.1",
   "scripts": {
     "start": "gulp"
   },
-  "devDependencies": {
+	"devDependencies": {
+	},
+  "dependencies": {
     "front-router": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -20,5 +22,5 @@
     "run-sequence": "^1.1.1",
     "yargs": "^3.15.0"
   },
-  "private": true
+  "private": false
 }
