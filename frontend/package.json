@@ -4,6 +4,10 @@
   "scripts": {
     "start": "gulp"
   },
+	"engines": {
+		"node": "0.12.7",
+		"npm": "2.11.3"
+	},
 	"devDependencies": {
 	},
   "dependencies": {
