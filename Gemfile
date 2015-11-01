@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+# Rails
 gem 'rails', '4.2.0'
 
 gem 'rails-api'
@@ -10,6 +10,7 @@ gem 'spring', :group => :development
 
 gem 'pg'
 
+# Testing
 group :development, :test do
 	gem "rspec-rails", "~> 3.1.0"
 	gem "factory_girl_rails", "~> 4.4.1"
@@ -26,17 +27,13 @@ group :test do
 	gem "shoulda-matchers", "~> 3.0"
 end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# Auth
+gem 'omniauth'
+gem 'devise'
+gem 'devise_token_auth',
+	:git => 'https://github.com/DeanSolecki/devise_token_auth.git',
+	:ref => 'e30cd6b'
+gem 'active_model_serializers'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano', :group => :development
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+# Ruby version
+ruby '2.1.5'
