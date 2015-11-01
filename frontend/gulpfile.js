@@ -189,3 +189,5 @@ gulp.task('start_backend', shell.task([
 ]));
 
 gulp.task('fullserve', ['start_backend', 'server']);
+
+gulp.task('heroku:production', ['build']);
