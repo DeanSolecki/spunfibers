@@ -20,4 +20,4 @@
 *.swo
 
 # Ignore public files where assets are built on deployment
-/public
+public/
