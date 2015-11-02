@@ -2,36 +2,26 @@ require 'rails_helper'
 
 feature 'User management' do
 	feature 'user' do
-		scenario 'create new user' do
-		end
+		scenario 'create new user' 
 
-		scenario 'validate email' do
-		end
+		scenario 'validate email' 
 
-		scenario 'login user' do
-		end
+		scenario 'login user' 
 
-		scenario 'logout user' do
-		end
+		scenario 'logout user' 
 
-		scenario 'update profile' do
-		end
+		scenario 'update profile' 
 
-		scenario 'reset password' do
-		end
+		scenario 'reset password' 
 
-		scenario 'delete user' do
-		end
+		scenario 'delete user' 
 	end
 
 	feature 'admin' do
-		scenario 'login admin' do
-		end
+		scenario 'login admin' 
 
-		scenario 'logout admin' do
-		end
+		scenario 'logout admin' 
 
-		scenario 'update profile' do
-		end
+		scenario 'update profile' 
 	end
 end
